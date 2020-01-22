@@ -2,6 +2,6 @@ img {
   max-width: 300px;
 }
 
-#fortune-result {
+#fortune-result, #boring-result, #creative-result, #rebellious-result, #no-answer{
   display: none;
 }
