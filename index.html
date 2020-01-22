@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Teller Quiz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller Quiz</h2>
+      </div>
+      <img src="img/tea.jpg" alt="tea leaves">
+      <form id="fortune-survey">
+        <div class="form-group">
+          <p>What do you see when you look at these tea leaves? Select all that apply.</p>
+          <input class="boring" type="checkbox" name="tea" value="bird"> A bird.<br>
+          <input class="creative" type="checkbox" name="tea" value="cyclops">A cyclops<br>
+          <input class="rebellious" type="checkbox" name="tea" value="ex-wife">My ex-wife<br>
+          <input class="boring" type="checkbox" name="tea" value="leaves">Leaves.<br>
+          <input class="creative" type="checkbox" name="tea" value="bambi">Bambi<br>
+          <input class="boring" type="checkbox" name="tea" value="train">A train<br>
+          <input class="creative" type="checkbox" name="tea" value="chicago">Skyline of Chicago<br>
+          <input class="boring" type="checkbox" name="tea" value="basket">A basket<br>
+          <input class="rebellious" type="checkbox" name="tea" value="obama">Obama.<br>
+          <input class="creative" type="checkbox" name="tea" value="scooter">A small boy riding a scooter with a hat on.<br>
+          <input class="rebellious" type="checkbox" name="tea" value="scenery">Who cares about the leaves? Do you see that scenery behind the cup??<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="fortune-result">
+        <p><b>Here is your fortune:</b></p>
+      </span>
+      <br>
+    </div>
+  </body>
+</html>
